@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoFork 補助金チェッカー v3.3.0</title>
+    <script>
+      // GitHub Pages SPA対応: 404.htmlからindex.htmlにリダイレクト
+      var path = window.location.pathname;
+      if (path !== '/' && !path.endsWith('.html')) {
+        window.location.replace('./index.html' + window.location.search + window.location.hash);
+      } else {
+        window.location.replace('./index.html');
+      }
+    </script>
+  </head>
+  <body>
+    <p>リダイレクト中...</p>
+  </body>
+</html>
